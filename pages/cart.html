@@ -6,11 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/cart.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Amazon: Cart</title>
 </head>
 
 <body>
     <header>
+
+        <!--nav section-->
+        <div class="nav-bar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-add border"> <!-- this div is for the location and the name we give the class border too so that on hover 
+                we get to see the white border-->
+                <p class="deliver">Deliver To</p>
+                <div class="add-icon">
+                    <!-- this  class is created to add the icon and the name of the location so
+                    it was in the column form so to make it row wise we used the display flex such that the loc icon and the name comes in one line-->
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="loc-name">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <!-- this is the format for the select button and we need to give that what are the dropdown options 
+                    the value is used in js and the name is all that is in white color-->
+                    <option value="All">All</option>
+                    <option value="Books">Books</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Home">Home</option>
+                </select>
+                <input placeholder="Search on Amazon.com" class="search-input" type="text">
+                <!-- we need to add a search icon -->
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language border">
+                <select class="language-select">
+                    <option value="En">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Russian">Russian</option>
+                </select>
+            </div>
+
+            <div class="sign-in border">
+                <p><span>Hello, <a href="#" class="Sign-in-option border">Sign in</a> </span></p>
+                <p class="acc-li">Account & Lists</p>
+            </div>
+
+            <div class="return sign-in border">
+                <p><span>Returns</span></p>
+                <p class="orders acc-li">& Orders</p>
+            </div>
+            <a href="pages/cart.html" class="carticn border" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </a>
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-options">
+                <p>Today's Deals</p>
+                <p>Customer service</p>
+                <p>Registry</p>
+                <p>Gift Card's</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+        <!--nav section end-->
         <div class="main-sc-container">
             <div class="outer-div-sc">
                 <div class="main-active-sc">
@@ -119,6 +195,30 @@
 
                     </div>
                 </div>
+            </div>
+            <div class="more-on-your-item">
+                <div class="subtotal">
+                    <div class="subtotal-inside">
+                        <div class="subtotal-and-amount">
+                            <div class="subtotal-num-items">Subtotal (@items):</div>
+                            <div class="subtotal-amount">$108.98</div>
+                        </div>
+                        <div class="this-is-a-gift-subtotal"><input type="checkbox" /> This order contains a Gift</div>
+                        <div class="proceed-to-check-out"><button class="proceed-button">Proceed to Checkout</button></div>
+                    </div>
+                </div>
+                <div class="fast-delivery">
+                    <div class="logo-big-dilivery">
+                        <div class="logo-of-prime"></div>
+                        </div>
+                        <div class="text-and-join-prime">
+                            <div class="text-fast-dilivery">Unlimited Fast Delivery on millions of eligible items
+                                Get started.
+                            </div>
+                            <div class="button-join-prime"><button class="join-prime-button">Join Prime</button></div>
+                    </div>
+                </div>
+                <div class="pair-with-your-cart">Pair with Your Cart</div>
             </div>
         </div>
     </header>

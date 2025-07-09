@@ -3,6 +3,9 @@
     width: 1520px;
     height: 1450px;
     padding: 14px 18px 18px 18px;
+    display: flex;
+    flex-direction: row;
+    
 
 }
 
@@ -10,6 +13,7 @@
     width: 1164.8px;
     height: 624px;
     margin-bottom: 20px;
+    margin-right: 20px;
     padding: 20px 0px 15px
 }
 
@@ -242,3 +246,127 @@ a {
 .empty-fillup {
     width: 160px;
 }
+.more-on-your-item {
+    width: 300px;
+    height: 1679px;
+    display:block;
+    padding-top: 20px;
+}
+.subtotal{
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 0px 15px;
+    font-size: 14px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+}
+.subtotal-inside{
+    width: 300px;
+    height: 115px;
+    padding: 0px 20px 5px 20px;
+    display: block;
+}
+.subtotal-and-amount{
+    width: 260px;
+    height: 25px;
+    margin-bottom: 4px;
+    display: flex;
+}
+.subtotal-num-items{
+    padding-top: 3px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.subtotal-amount{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.this-is-a-gift{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.proceed-to-check-out{
+    width: 260px;
+    height: 40px;
+    
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #111;
+
+}
+.proceed-button{
+    width: 260px;
+    height: 40px;
+    background-color: #F0C14B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: inherit;
+    font-size: small;
+    color: #111;
+    margin-top:10px;
+}
+.fast-delivery{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 15px;
+    font-size: 14px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+}
+.logo-big-dilivery{
+    width: 100px;
+    height: 95px;
+    padding: 5px 0px 0px 10px;
+    margin-bottom: 22px;
+    ;
+}
+.logo-of-prime{
+    background-image: url('../images/Prime-image.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.text-and-join-prime{
+    width: 200px;
+    display: block;
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+    font-size: 14px;
+}
+.text-fast-dilivery{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.button-join-prime{
+    text-align: center;
+    padding-right: 20px
+}
+.join-prime-button{
+    width: 150px;
+    height: 40px;
+    background-color: #F0C14B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: small;
+    color: #111;
+}
+    
