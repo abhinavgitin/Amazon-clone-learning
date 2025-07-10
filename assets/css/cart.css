@@ -172,6 +172,7 @@ a {
     align-items: center;
     justify-content: center;
     padding-bottom: 5px;
+    
 }
 
 .amountnum {
@@ -191,7 +192,12 @@ a {
     align-items: center;
     justify-content: center;
 }
-
+#quantities {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: inherit;
+}
 .seperator {
     display: flex;
     align-items: center;
@@ -318,6 +324,7 @@ a {
     font-size: small;
     color: #111;
     margin-top:10px;
+    cursor: pointer;
 }
 .fast-delivery{
     width: 300px;
@@ -375,6 +382,7 @@ a {
     font-weight: 700;
     font-size: small;
     color: #111;
+    cursor: pointer;
 }
 .background-match{
     width: 1164.8px;
