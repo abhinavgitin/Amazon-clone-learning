@@ -1,4 +1,4 @@
-# Amazon Clone 🚀
+# Amazon Clone Beginner 🚀
 
 Welcome to my **Amazon Clone** project!  
 This repository is my daily playground for learning and building web development skills by recreating the look and feel of Amazon's website.
